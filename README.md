@@ -35,10 +35,10 @@ Ejecuta el código
 ```
 
 
-## Authors
+## Autores
 
 
-* **[Diana Cristina Barreto López]**
+* **Diana Cristina Barreto López**
   * **Role:** Master
   * **Matrícula:** A01425668
   * **GitHub:** [@a01425668-hub](https://github.com/a01425668-hub)
