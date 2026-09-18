@@ -124,11 +124,11 @@ def move():
             else:
                 plan = vector(0,-10)
        
-        if not valid(point + plan):
-            options = [vector(10,0), vector(-10,0), vector(0,10), vector(0,-10)]
-            valid_options = [op for op in options if valid(point + op)]
-            if valid_options:
-                plan = choice(valid_options) 
+            if not valid(point + plan):
+                options = [vector(10,0), vector(-10,0), vector(0,10), vector(0,-10)]
+                valid_options = [op for op in options if valid(point + op)]
+                if valid_options:
+                    plan = choice(valid_options) 
 
             course.x = plan.x
             course.y = plan.y
